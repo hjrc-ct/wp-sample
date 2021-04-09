@@ -4,7 +4,7 @@ let vapidKeys =
         //push.generateVAPIDKeys();
         {
             publicKey: 'BBlw0TujfU6PVbweYIULgv5nLRcwOhvgM5fjdzeLWEXqjHsKvshTk10Q7VFsS9G29y-dovhm5bwz3Vwh5k0tRNI',
-            privateKey: 'JY8cIeauPUtdafWBU8Y-TJuqUulZBUwxv64jqJFd2Us' 
+            privateKey: 'secret' 
         };
 
 //console.log("VAPID keys for BPA -> ", vapidKeys)
