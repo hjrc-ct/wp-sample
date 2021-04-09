@@ -21,7 +21,15 @@ self.addEventListener('push', function( e ) {
         ]
     };
 
-    e.waitUntil( self.registration.showNotification('Hello BPA!', options));
+    var mPayload;
+    if (e.data) {
+        mPayload = e.data.text();
+      } else {
+        mPayload = 'Push message default payload - Hello BPA!';
+      }
+    
+
+    e.waitUntil( self.registration.showNotification(mPayload, options));
 
 });
 
