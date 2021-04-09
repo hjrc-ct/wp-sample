@@ -21,7 +21,7 @@ self.addEventListener('push', function( e ) {
         ]
     };
 
-    e.waitUntil( self.ServiceWorkerRegistration.showNotification('Hello BPA!', options));
+    e.waitUntil( self.registration.showNotification('Hello BPA!', options));
 
 });
 
