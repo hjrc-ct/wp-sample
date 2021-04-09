@@ -14,3 +14,6 @@ push.setVapidDetails('mailto:security@ct.com',
                         vapidKeys.publicKey, vapidKeys.privateKey);
 
 let sub = {};
+
+push.sendNotification(sub, 'BPA Message One');
+
