@@ -13,12 +13,14 @@ let vapidKeys =
 push.setVapidDetails('mailto:security@ct.com', 
                         vapidKeys.publicKey, vapidKeys.privateKey);
 
-let sub = {
-    "endpoint":"https://fcm.googleapis.com/fcm/send/d6EhN9o_ykY:APA91bHuZnseIjK8N_6LBNFF3J_Lgh3wGrgiyy19Ydy49bwQpN9SqjBdbJ00xQ8NIgp7sZop1qIc-pJc27JMOhtgJoekkQJ344afgjNAP9YBbc2WmZdLvh1UGcLU2HOyo8rNJ1c0fkRs",
+let sub = 
+{
+    "endpoint":"https://fcm.googleapis.com/fcm/send/cLVdJ4vT410:APA91bGBS1HF_hpBdFDY2kh7UvB_NYzRvJQvDpobF3q_aPjUMaNdsOlT2IV3ApfewgLQSlFRfA_d1RRXf8p4g0x8I8goxzEz5Qinrlh2XUTYjO7ZUdGzrv794nvoV-rOK-lAdmhYPZz8",
     "expirationTime":null,
+    
     "keys":{
-        "p256dh":"BMuo1ocprsO8cvdl3fc_Pt2yd7cUptBNdSoL-8_FLC6qBcDpd05kVCygM3scjWdXYLp0bqxpUYHabJaaabJBEEU",
-        "auth":"TsxAJ3Mkjbv3wDNEYByqzA"
+        "p256dh":"BNUaOX3IzIY84BD8ebtwSJHRkHxwMzKH9Nt7Ha8m1vfcwqvif5gydd8v3t_M_qe80vfbUGFkFCpu8fKv0faL9dI",
+        "auth":"uaypOjuqVoX2GXaJ0EwIww"
     }
 };
 
