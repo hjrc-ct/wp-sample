@@ -1,4 +1,4 @@
-// service worker
+
 
 self.addEventListener('push', function( e ) {
     console.log('service worker registration ...');
