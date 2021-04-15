@@ -1,17 +1,6 @@
 // Two parts here. 
 // Part 1 - code using snack bar
-import {Component} from '@angular/core';
-import {MatSnackBar} from '@angular/material/snack-bar';
-
-export class SnackBarOverviewExample {
-    constructor(private _snackBar: MatSnackBar) {}
-  
-    openSnackBar(message: string, action: string) {
-      this._snackBar.open(message, action, {
-        duration: 2000,
-      });
-    }
-  }
+// see snackbar.js
 
 // Part 2 -- below code represents simple notification method - top right corner message pop-up
 
