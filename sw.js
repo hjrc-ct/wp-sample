@@ -1,7 +1,5 @@
 // Two parts here. 
 // Part 1 - code using snack bar
-import {Component} from '@angular/core';
-import {MatSnackBar} from '@angular/material/snack-bar';
 
 
 
