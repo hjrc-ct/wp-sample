@@ -20,6 +20,7 @@
         })
 
         async function subscribe() {
+            
             let sw = await navigator.serviceWorker.ready;
             let push = await sw.pushManager.subscribe({
                 userVisibleOnly: true,
@@ -27,7 +28,7 @@
                 applicationServerKey : urlBase64ToUint8Array('BBlw0TujfU6PVbweYIULgv5nLRcwOhvgM5fjdzeLWEXqjHsKvshTk10Q7VFsS9G29y-dovhm5bwz3Vwh5k0tRNI')
             });
 
-            console.log("outcome of subscribe -> ", JSON.stringify(push))
+            console.log("outcome of device subscribe -> ", JSON.stringify(push))
         }
 
         function urlBase64ToUint8Array(base64String) {
