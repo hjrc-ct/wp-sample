@@ -34,5 +34,4 @@ import { SnackBarOverviewExample } from "./src/app/snack-bar-overview-example";
     ]
  })
 
- export class AppModule {}
- 
+ export class SnackBarOverviewExample {}
