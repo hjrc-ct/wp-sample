@@ -17,6 +17,7 @@
         addEventListener('load', async () => {
             let sw = await navigator.serviceWorker.register('./sw.js');
             console.log(sw);
+            console.log("service worker sw.js initialised !");
         })
 
         async function subscribe() {
