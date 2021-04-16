@@ -7,8 +7,8 @@ import {MatSnackBar} from '@angular/material/snack-bar';
  */
  @Component({
   selector: "snack-bar-overview-example",
-  templateUrl: "snack-bar.html",
-  styleUrls: ["snack-bar.css"]
+  templateUrl: "snack-bar-overview-example.html",
+  styleUrls: ["snack-bar-overview-example.css"]
 })
 
 
