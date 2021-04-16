@@ -4,7 +4,7 @@ let vapidKeys =
         //push.generateVAPIDKeys();
         {
             publicKey: 'BBlw0TujfU6PVbweYIULgv5nLRcwOhvgM5fjdzeLWEXqjHsKvshTk10Q7VFsS9G29y-dovhm5bwz3Vwh5k0tRNI',
-            privateKey: 'secret'
+            privateKey: 'JY8cIeauPUtdafWBU8Y-TJuqUulZBUwxv64jqJFd2Us' 
         };  // keep privateKey in a secure location. Nobody should see the private key per se.  DevOps action.
 
 //console.log("VAPID keys for BPA -> ", vapidKeys)
@@ -16,25 +16,23 @@ push.setVapidDetails('mailto:security@ct.com',
 
 // user device endpoint registered
 let subDeviceList = [ 
+
     {
-        "endpoint":"https://fcm.googleapis.com/fcm/send/ezJJmtBJzsY:APA91bG7jcMR4zn5wXUw48RnkijyjlrfGJ_DsXOG5-n-DO2TYpHHJdhUoMwrc52nVCQORBUC9tPGQbIxqVQsgt-rdCjlxNO6ON3KoRAsh2gfPwnCwq8kQ0PECiWg7XVhwG6PjbPUj62P",
-        "expirationTime":null,
+        "endpoint":"https://updates.push.services.mozilla.com/wpush/v2/gAAAAABgeSCkKjXTHhvEJpAdRkZGOO8IWazkDaNZDyBZV0IriFEqIjzqPZq6yyydqv3BF8j-dhPk8gBanESi4Pj9DuhVVl2GKb8n5qxfWi2PpUjVPnXfRqSjpLZO9B3oy3eTk-yAJlXk0s1WIxXokvep1qWE-xlGxegjhTNBmCZHLjqh2A2QepM",
         "keys":{
-            "p256dh":"BECjEl1ZGzfVih6Sn2SIIp7uje0d-IMRLCLp-8rL3kby4jCOgyT7UCKoRKDyY14nWrRjNLPcNwSKQCbgq2Hsgno",
-            "auth":"v3mqZv70y4YtuvKE3KOnQw"
+            "auth":"XReC7O1U0P_1uEWRJotZxA",
+            "p256dh":"BLZmhMnqx4E9STcg6PwkSXT_CcCkeLIrx0OpiFQsg_Btnw8l0IWjs1H9c7uB62msBZ22x1TCWDInsc4pu-4JOi4"
         }
     },
     {
-        "endpoint":"https://updates.push.services.mozilla.com/wpush/v2/gAAAAABgd-lOcmcZEfEh_lnFe4Lu2biSiGsKEqvnsZO4X6LvAlrAoh10TBxs--mkVX6wTyQXUQDXMQwcc2wACk13__d1H75mmNckmKPvSG6g_ykWJvlSoQjtduGkTRHl6Im9QOmdOAVUjXNVu8U5rSHxuJjSgSXI695Fl97tPX6hVsaKES0KbWg",
-        "keys":
-            {
-                "auth":"SRzqoYiDbCa_fGkdUlm4hA","p256dh":"BJSD8vCnobOXqKeVMT8hHMf03y-PxwmR5Vf0fdb6JCg-JYkgRGaEakDEaM8oU3xqmW2b6NWsCbUcRxZAWCcUk2A"
-    
-        }
+        "endpoint":"https://updates.push.services.mozilla.com/wpush/v2/gAAAAABgeTrDJycATHHpoZxePiGKCXdxHgyn2g_SWMKBLvwtbS_rsp-Xc2ZqSen66eGLn_74wSKTgCxf9jaUNwctvf29HAKiYbmfRU25LeRSzJZn94XAKae8h88C8gblJW8r_yHmXshojkZxFDeax6wrKJWguu84iiVYxJwKmVIBeR71Gubu2no",
+        "keys":{
+            "auth":"SgnDOoHoA2OxBMHkMyxT0Q","p256dh":"BLyzAXaem8GAD_K7OGEifR94SEYTpjuv1Aed_F1gttdRpZLMRB2tQ_j9Fm1pbsQ2rXZpFPLpcaf58MMgu0G-bts"
+    }
     }
 ];
 var msgCustomised = {
-    "message"  : "BPA Message Eight 2",
+    "message"  : "BPA Message Eight 5",
     "module"   : "module_a",
     "category" : "category_a",
     "category" : "type_a"
