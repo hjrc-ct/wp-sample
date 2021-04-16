@@ -33,7 +33,7 @@ self.addEventListener('push', function( e ) {
       }
     
 
-    
+      console.log("render the message ... hurray! ", mPayload);
       e.waitUntil( self.registration.showNotification(mPayload, options) );
 
       e.waitUntil(  openSnackBar(mPayload, 5000 ) );
