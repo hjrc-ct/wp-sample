@@ -12,8 +12,12 @@ import {MatSnackBar} from '@angular/material/snack-bar';
 })
 
 
-export class SnackBarOverviewExample {
+export class SnackBarOverviewExample  implements OnInit  {
     constructor(private _snackBar: MatSnackBar) {}
+
+    ngOnInit(){
+      console.log("SnackBarOverviewExample class - on init invoked - success");
+    }
   
     openSnackBar(message: string, action: string) {
       this._snackBar.open(message, action, {
