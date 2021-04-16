@@ -34,4 +34,8 @@ import { SnackBarOverviewExample } from "./src/app/snack-bar-overview-example";
     ]
  })
 
- export class SnackBarOverviewExample {}
+export class AppModule {}
+
+ platformBrowserDynamic()
+  .bootstrapModule(AppModule)
+  .catch(err => console.error(err));
